@@ -4,7 +4,6 @@ using UnityEngine;
 
 public interface IPlayer : ICharacter
 {
-
     int Lives { get; set; }
     int MaxLives { get; set; }
 }

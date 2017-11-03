@@ -10,7 +10,7 @@ public class BaseGameManager : MonoBehaviour {
     protected BaseInputManager _inputManager;
     protected BaseUIManager _uiManager;
 
-    private void Awake()
+    void Awake()
     {
         OnAwake();
     }
